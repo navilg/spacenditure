@@ -1,0 +1,124 @@
+/* To get rid of defaults */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+/* For older version of browsers */
+section, aside, header, footer, article, nav, main{
+    display: block;
+}
+
+/* Styling top header */
+#top_header{
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(8, 37, 92);
+    color: white;
+    position:fixed;
+}
+#top_header h1{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: 'Balthazar', serif;
+}
+#top_header ul{
+    float: right;
+}
+#top_header ul li{
+    float: left;
+    padding: 5px 20px;
+}
+
+/* Adding padding to whole article */
+article{
+    padding: 15px 10px;
+}
+
+/* Styling hero content */
+#hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+#hero h1{
+    font-family: 'Balthazar', serif;
+    font-size: 8vw;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+/*Column Layout Formation */
+#left_column{
+    float: left;
+    width: 30%;
+    height: 100vh;
+    min-width: 150px;
+}
+#center_column{
+    float: left;
+    width: 40%;
+    min-width: 300px;
+}
+#right_column{
+    float: left;
+    width: 30%;
+    height: 100vh;;
+    min-width: 150px;
+}
+#bottom_footer{
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(9, 9, 48);
+}
+
+/* Footer Layout Format */
+#copyright{
+    font-size: 0.8em;
+    margin-bottom: 7px;
+}
+#bottom_footer #copyright p{
+    float: left;
+}
+#bottom_footer #copyright nav ul{
+    float: right;
+}
+#bottom_footer #copyright nav ul li{
+    float: left;
+    padding-right: 20px;
+}
+/* Image Format */
+img.image{
+    display: block;
+    margin: auto;
+}
+#center_column article{
+    text-align: center;
+    color: rgb(34, 33, 33);
+    font-size: 2em
+}
+
+
+/* For smaller screen size */
+@media only screen and (max-width:600px){
+    #bottom_footer #copyright p{
+        text-align: center;
+    }
+    #bottom_footer #copyright nav ul{
+        clear: both;
+    }
+}

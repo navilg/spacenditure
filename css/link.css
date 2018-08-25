@@ -1,0 +1,16 @@
+/* Styling Link of header */
+#top_header a{
+    color: white;
+    text-decoration: none;
+}
+#top_header a:hover{
+    color: rgb(79, 116, 148);
+}
+
+#bottom_footer a{
+    color: white;
+    text-decoration: none;
+}
+#bottom_footer a:hover{
+    color: rgb(79, 116, 148);
+}
