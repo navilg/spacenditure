@@ -61,23 +61,31 @@ article{
 }
 
 /*Column Layout Formation */
-#left_column{
+#left_column, #right_column{
     float: left;
     width: 30%;
     height: 100vh;
-    min-width: 150px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
 }
 #center_column{
     float: left;
     width: 40%;
     min-width: 300px;
 }
+/* 
 #right_column{
     float: left;
     width: 30%;
     height: 100vh;;
-    min-width: 150px;
+    min-width: 300px;
 }
+ */
+
 #bottom_footer{
     clear: both;
     width: 100%;
@@ -86,6 +94,31 @@ article{
     background-color: rgb(9, 9, 48);
 }
 
+/* Left column format */
+#left_column article h1{
+    color: rgb(163, 0, 0);
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#left_column article h2{
+    color: rgb(58, 20, 20);
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+/* Right column format */
+#right_column article h1{
+    color: rgb(163, 0, 0);
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#right_column article h2{
+    color: rgb(58, 20, 20);
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+
 /* Footer Layout Format */
 #copyright{
     font-size: 0.8em;
@@ -93,6 +126,7 @@ article{
 }
 #bottom_footer #copyright p{
     float: left;
+    padding-right: 5px;
 }
 #bottom_footer #copyright nav ul{
     float: right;
@@ -101,12 +135,12 @@ article{
     float: left;
     padding-right: 20px;
 }
-/* Image Format */
+/* Image Format and center column*/
 img.image{
     display: block;
     margin: auto;
 }
-#center_column article{
+#center_column header h1{
     text-align: center;
     color: rgb(34, 33, 33);
     font-size: 2em
