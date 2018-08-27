@@ -14,3 +14,10 @@
 #bottom_footer a:hover{
     color: rgb(79, 116, 148);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(36, 36, 124);
+}

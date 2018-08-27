@@ -6,7 +6,7 @@
 }
 
 /* For older version of browsers */
-section, aside, header, footer, article, nav, main{
+section, aside, header, footer, article, nav, main, figure{
     display: block;
 }
 
@@ -77,14 +77,7 @@ article{
     width: 40%;
     min-width: 300px;
 }
-/* 
-#right_column{
-    float: left;
-    width: 30%;
-    height: 100vh;;
-    min-width: 300px;
-}
- */
+
 
 #bottom_footer{
     clear: both;
@@ -136,7 +129,7 @@ article{
     padding-right: 20px;
 }
 /* Image Format and center column*/
-img.image{
+img{
     display: block;
     margin: auto;
 }
@@ -146,13 +139,36 @@ img.image{
     font-size: 2em
 }
 
+/* Planet Profile */
+#planet_profile{
+    clear: both;
+    width: 100%;
+}
+
+#planet_profile header h1{
+    text-decoration: underline;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(34, 33, 33);
+    font-size: 2em
+}
+#planet_profile figure{
+    float: left;
+    padding: 15px 15px;
+}
+#planet_profile article{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+figcaption{
+    padding-top: 5px;
+}
 
 /* For smaller screen size */
 @media only screen and (max-width:600px){
-    #bottom_footer #copyright p{
-        text-align: center;
+    #left_column, #right_column, #center_column{
+        width: 100%;
     }
-    #bottom_footer #copyright nav ul{
-        clear: both;
-    }
+    
 }
