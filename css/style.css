@@ -133,6 +133,7 @@ img{
     display: block;
     margin: auto;
 }
+
 #center_column header h1{
     text-align: center;
     color: rgb(34, 33, 33);
@@ -153,8 +154,11 @@ img{
     font-size: 2em
 }
 #planet_profile figure{
-    float: left;
     padding: 15px 15px;
+    display: inline-block;
+}
+#planet_profile figure:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(13, 45, 82);
 }
 #planet_profile article{
     width: 100%;
