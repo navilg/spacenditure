@@ -183,16 +183,23 @@ figcaption{
     display: table;
     box-shadow: inset 0px 0px 0px 1.8px rgb(0, 0, 0);
 }
+#glossary figure:hover{
+    box-shadow: inset 0px 0px 0px 2.4px rgb(0, 0, 0);
+}
+
 #glossary figure figcaption{
     display: table-caption;
     caption-side: bottom;
 }
 #glossary{
     text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 20px 0px;
 }
 #glossary article{
     display: inline-block;
-    padding: 15px 15px 5px 15px;
+    margin: auto;
     text-align: justify;
 }
 
@@ -200,6 +207,5 @@ figcaption{
 @media only screen and (max-width:600px){
     #left_column, #right_column, #center_column{
         width: 100%;
-    }
-    
+    }    
 }
