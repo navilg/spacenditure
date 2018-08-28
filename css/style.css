@@ -134,7 +134,7 @@ article{
     min-width: 250;
 }
 #donate p{
-    padding: 15px 0px 20px 15px;
+    padding: 15px 15px 20px 0px;
     text-align: justify;
 }
 #social_links{
