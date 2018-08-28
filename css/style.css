@@ -9,7 +9,12 @@
 section, aside, header, footer, article, nav, main, figure{
     display: block;
 }
-
+.contents{
+    padding: 10px 20px 10px 0px;
+}
+hr{
+    margin: 5px;
+}
 /* Styling top header */
 #top_header{
     width: 100vw;
@@ -113,13 +118,47 @@ article{
 
 
 /* Footer Layout Format */
+#footer_sec{
+    padding: 15px;
+}
+#company{
+    float: left;
+    width: 30%;
+}
+#company ul{
+    padding-top: 15px;
+}
+#donate{
+    float: left;
+    width: 40%;
+    min-width: 250;
+}
+#donate p{
+    padding: 15px 0px 20px 15px;
+    text-align: justify;
+}
+#social_links{
+    float: left;
+    width: 30%;
+}
+#social_links img{
+    clear: both;
+    float: left;
+    padding: 3.5px 15px;
+}
+#social_links p{
+    padding: 6.2px 0px;
+}
+
 #copyright{
+    clear: both;
     font-size: 0.8em;
     margin-bottom: 7px;
 }
 #bottom_footer #copyright p{
     float: left;
     padding-right: 5px;
+    padding-bottom: 15px;
 }
 #bottom_footer #copyright nav ul{
     float: right;
@@ -207,5 +246,9 @@ figcaption{
 @media only screen and (max-width:600px){
     #left_column, #right_column, #center_column{
         width: 100%;
-    }    
+    } 
+    #company, #donate, #social_links{
+        clear: both;
+        width: 100%;
+    }   
 }
