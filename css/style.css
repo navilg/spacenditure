@@ -24,6 +24,9 @@ p{
     color: white;
     position:fixed;
 }
+#top_header article{
+    padding: 10px 15px 10px 15px;
+}
 #top_header h1{
     float: left;
     margin-right: 20px;
@@ -117,14 +120,14 @@ p{
 /* Footer Layout Format */
 
 #footer_sec{
-    padding-top: 15px;
+    /* padding-top: 15px; */
     width: 100vw;
     display: flex;
     justify-content: space-between;
 }
 #company, #donate, #social_links{
     width: 30%;
-    margin: 0px 10px;
+    margin: 10px 10px;
 }
 #social_links img{
     clear: both;
@@ -139,7 +142,7 @@ p{
     width: 100vw;
     clear: both;
     font-size: 0.8em;
-    margin-bottom: 7px;
+    margin: 7px;
 }
 #bottom_footer #copyright p{
     float: left;
