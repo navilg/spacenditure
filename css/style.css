@@ -239,6 +239,7 @@ figcaption{
     } 
     #company, #donate, #social_links, figure{
         width: 90vw;
+        padding-top: 15px;
     }  
     #donate p{
         padding-right: 15px;
