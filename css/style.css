@@ -225,7 +225,7 @@ figcaption{
 /* For smaller screen size */
 @media only screen and (max-width:600px){
     #left_column, #right_column, #center_column{
-        width: 100vw;
+        width: 90vw;
     } 
     .first_row, .second_row, #footer_sec{
         flex-direction: column;
@@ -233,7 +233,7 @@ figcaption{
         align-items: center;
     } 
     #company, #donate, #social_links, figure{
-        width: 100vw;
+        width: 90vw;
     }  
     #donate p{
         padding-right: 15px;
