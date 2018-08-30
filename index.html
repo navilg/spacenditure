@@ -7,7 +7,8 @@
         <title>Spacenditure-Home</title>
         <link rel="icon" href="images/favicon.ico"/>
         <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/link.css"/>   
+        <link rel="stylesheet" href="css/link.css"/> 
+        <link rel="stylesheet" href="css/form.css"/>   
     </head>
     <body>
         <!-- below this is header of page -->
@@ -128,6 +129,13 @@
                         <p>A pulsar (from pulse and -ar as in quasar) is a highly magnetized rotating neutron star or white dwarf that emits a beam...</p>
                     </figcaption>
                 </figure>
+                <figure><a href="#">
+                    <img src="images/ort_cloud.jpeg" alt="ort cloud">
+                    <figcaption>
+                        <h3>Where is Oort Cloud?</h3></a>
+                        <p>Oort Cloud is a theoretical cloud of predominantly icy planetesimals proposed to surround the Sun at distances ranging...</p>
+                    </figcaption>
+                </figure>
             </article>
             <article class="second_row">
                 <figure><a href="#">
@@ -142,6 +150,13 @@
                     <figcaption>
                         <h3>What is Nebula?</h3></a>
                         <p>A nebula (Latin for "cloud" or "fog"; pl. nebulae, nebulæ, or nebulas) is an interstellar cloud of dust, hydrogen...</p>
+                    </figcaption>
+                </figure>
+                <figure><a href="#">
+                    <img src="images/string_theory.png" alt="string theory">
+                    <figcaption>
+                        <h3>What does string theory states?</h3></a>
+                        <p>According to superstring theory, there are at least 10 dimensions in the universe and strings are only the one dimension...</p>
                     </figcaption>
                 </figure>
             </article>
@@ -185,11 +200,52 @@
                         </ul>
                     </main>
                 </aside>
-            </article>
-            <article>
-                <div id="copyright"><hr/>
-                    <main>
-                        <p>copyright &copy; 2018 <a href="index.html">spacenditure.com</a> |</p><p>All rights reserved</p>
+            </article><hr/>
+            <article id="copyright_sec">
+                <div id="contact_form">
+                    <h2>Contact Form</h2>
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="fname">Full Name :</label>
+                            </div>
+                            <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="emailid">E-Mail Id :</label>
+                            </div>
+                            <div class="col-75">
+                            <input type="email" id="emailid" name="emailid" placeholder="someone@example.com">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="subject">Message :</label>
+                            </div>
+                            <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Your Message Here.." style="height:100px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div id="copyright">
+                    <!-- <main> -->
+                        <figure>
+                        <img src="images/logo.jpeg" alt="logo"></figure><article>
+                        <p>
+                            <strong>SPACENDITURE</strong> <br/> 91 Western Road <br>
+                            Brighton <br/>
+                            East Sussex <br/>
+                            England <br/>
+                            BN1 2NW
+                        </p></article>
+                        <!-- <p>copyright &copy; 2018 <a href="index.html">spacenditure.com</a> |</p><p>All rights reserved</p>
                         <nav class="bottom_nav">
                             <ul>
                                 <li><a href="#">Privacy Policy</a></li>
@@ -197,8 +253,16 @@
                                 <li><a href="#">Legal</a></li>
                                 <li><a href="#">Site Map</a></li>
                             </ul>
-                        </nav>
-                    </main>
+                        </nav> -->
+                    <!-- </main> -->
+                </div>
+                <div id="about_us">
+                    <h2>About Us</h2>
+                    <p>
+                        Spacenditure.com, a place where you learn about space and time. As these two names, space and time are not the ordinary words but the greatest mystery of today
+                        Spacenditure provides quality information and news on space exploration, exoplanet and everything related to space. <br><br>To reach us you can fill the contact 
+                        form or you can directly mail to us. <br><br>E-Mail : mail@spacenditure.com
+                    </p>
                 </div>
             </article>
         </footer>

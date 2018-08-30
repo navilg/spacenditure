@@ -129,6 +129,9 @@ p{
     width: 30%;
     margin: 10px 10px;
 }
+#donate img{
+    padding-top: 3.5px;
+}
 #social_links img{
     clear: both;
     float: left;
@@ -138,7 +141,7 @@ p{
     padding: 6.2px 0px;
 }
 
-#copyright{
+/* #copyright{
     width: 100vw;
     clear: both;
     font-size: 0.8em;
@@ -155,7 +158,39 @@ p{
 #bottom_footer #copyright nav ul li{
     float: left;
     padding-right: 20px;
+} */
+#copyright_sec{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f2f2f200; */
+    /* padding: 20px; */
+    border-radius: 5px;
 }
+
+#copyright{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#copyright img{
+    height: 120px;
+    width: 120px;
+    padding-bottom: 5px;
+}
+#copyright p{
+    width: 300px;
+    /* font-size: 0.8em; */
+    text-align: center;
+}
+#about_us{
+    width: 40vw;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
 /* Image Format and center column*/
 img{
     display: block;
@@ -222,12 +257,12 @@ figcaption{
 #glossary figure{
     padding: 10px;
     margin: 10px 0px;
-    width: 280px;
+    width: 25vw;
     box-shadow: inset 0px 0px 0px 1.8px rgb(0, 0, 0);
 }
 #glossary img{
-    height: 225px;
-    width: 280px;
+    height: 21.5vw;
+    width: 25vw;
 }
 
 /* For smaller screen size */
@@ -247,4 +282,21 @@ figcaption{
     #donate p{
         padding-right: 15px;
     }
+    #glossary figure{
+        width: 280px;
+    }
+    #glossary img{
+        height: 225px;
+        width: 280px;
+    }
+
+    #copyright_sec{
+        flex-direction: column;
+    }
+    #about_us, #contact_form {
+        width: 90vw;
+        padding: 15px;
+        margin-right: 15px;
+    }
+    
 }
